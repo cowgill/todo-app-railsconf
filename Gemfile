@@ -19,7 +19,8 @@ end
 
 group :production do
   gem 'unicorn'
-  gem 'mysql2', '~> 0.3.18'
+  # gem 'mysql2', '~> 0.3.18'
+  gem 'pg', '~> 0.18.4'
 end
 
 group :development, :test do
